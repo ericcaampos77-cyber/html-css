@@ -3,22 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eric - Desenvolvedor Fullstack</title>
+    <title>Colunas</title>
+    <style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+  }
+</style>
 </head>
 <body>
-    <header><!--Cabeçalho-->
-        <img src="ss.png" alt="Foto do futuro, Eric desenvolvedor fullstack">
-        <h1>Eric</h1>
-        <p>Estudante ADS Engenharia de Software</p>
-    </header>
-    <main><!--Definir conteúdo principal-->
-        <section>
-            <h2>Sobre mim</h2>
-            <p>Moro no oeste do Paraná e estou construindo minha carreira 
-        como desenvolvedor fullstack. Estudo HTML, CSS e JavaScript, 
-        e meu objetivo é trabalhar remotamente.</p>
-            
-        </section>
-    </main>
+    <h1>Tabela Padaria</h1>
+   <table>
+     <caption>Cardapio Padaria</caption>
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+    </thead> 
+     <tbody>
+         <tr>
+        <td>Pão francês</td>
+        <td>R$0,50</td>
+       </tr>
+       <tr>
+         <td>Crossaint</td>
+        <td>R$ 4,00</td>
+       </tr>        
+     </tbody>
+     <tfoot>
+        <tr>
+            <td>Total</td>
+            <td>R$ 4,50</td>
+        </tr>
+     </tfoot>
+   </table>
 </body>
 </html>
