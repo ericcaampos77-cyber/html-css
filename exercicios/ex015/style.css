@@ -1,0 +1,20 @@
+ @charset "UTF-8";
+ 
+ <style>
+        body {
+            background-color: rgb(190, 223, 132);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+        }
+        h1 {
+            color: white;
+            background-color: darkgoldenrod;
+        }
+        h2 {
+            color: rgb(255, 0, 76);
+            background-color: rgb(142, 146, 237);
+        }
+        p{
+            text-align: justify;
+        }
+    </style> <!--Entrando com a CSS modelo interno-->
