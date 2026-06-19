@@ -1,0 +1,37 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: crimson;
+}
+header {
+    background-color: deeppink;
+    color: antiquewhite;
+}
+h2 {
+    border-left: 5px solid deeppink;
+    padding-left: 5%;
+}
+p {
+    text-align: justify;
+}
+li {
+    border-bottom: 2px solid white;
+    padding: 6%;
+}
+ul {
+    list-style: none;
+}
+thead {
+    background-color: deeppink;
+    color: white;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid white;
+}
+tbody tr:nth-child(even) {
+    background-color: lightpink;
+}
+footer {
+    background-color: rgb(183, 0, 255);
+    color: aliceblue;
+}
